@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<!DOCTYPE prefwindow SYSTEM "chrome://deliciouspick/locale/options.dtd">
+
+<prefwindow id="deliciouspick-preferences" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&prefwindow.title;">
+  <prefpane id="pane" label="&pane.title;">
+
+    <preferences>
+      <preference id="boolprefClearPassword" name="extensions.deliciouspick.clearPassword" type="bool"/>
+    </preferences>
+    
+    <!-- UI elements that refer to the preferences above -->
+
+    <checkbox id="checkboolpref" preference="boolprefClearPassword" label="&checkboolpref.label;" accesskey="&checkboolpref.accesskey;"/>
+    
+  </prefpane>
+</prefwindow>

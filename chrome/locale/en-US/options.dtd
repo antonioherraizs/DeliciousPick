@@ -1,0 +1,5 @@
+<!-- Preferences Dialog -->
+<!ENTITY prefwindow.title "Delicious Pick preferences">
+<!ENTITY pane.title "Delicious Pick preferences">
+<!ENTITY checkboolpref.label "Remove password on next add-on run">
+<!ENTITY checkboolpref.accesskey "R">

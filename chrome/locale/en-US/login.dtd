@@ -1,0 +1,7 @@
+<!-- Login Dialog -->
+<!ENTITY title "Login to Delicious">
+<!ENTITY description.label "Use your Delicious account. Yahoo! IDs will not work!">
+<!ENTITY username.label "Username">
+<!ENTITY password.label "Password">
+<!ENTITY use_password_manager.label "Use Password Manager to remember login details">
+<!ENTITY button.accept.label "Go!">

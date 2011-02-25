@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://deliciouspick/locale/overlay.dtd">
+
+<overlay id="deliciouspick-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript" src="chrome://deliciouspick/content/overlay.js" />
+  <!-- Read our addon utils -->
+  <script type="application/x-javascript" src="chrome://deliciouspick/content/utils.js" />
+  
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="deliciouspick-strings" src="chrome://deliciouspick/locale/overlay.properties"/>
+  </stringbundleset>
+  
+  <!-- https://developer.mozilla.org/en/XUL_Tutorial/Keyboard_Shortcuts -->
+  <keyset id="mainKeyset">
+    <key id="deliciouspick-key" modifiers="accel shift" key="M" oncommand="com.toniaddons.deliciouspick.onMenuItemCommand();"/>
+  </keyset>  
+  
+  <!-- https://developer.mozilla.org/en/XUL/menuitem/ -->
+  <menupopup id="bookmarksMenuPopup">
+    <menuitem id="deliciouspickMenuItem" 
+    label="&deliciouspick.label;"
+    accesskey="m"
+    key="deliciouspick-key"
+    insertbefore="organizeBookmarksSeparator"
+    tooltiptext="&deliciouspick.tooltiptext;"
+    oncommand="com.toniaddons.deliciouspick.onMenuItemCommand();"/>
+  </menupopup>
+
+</overlay>

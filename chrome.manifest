@@ -1,0 +1,5 @@
+content   deliciouspick                 chrome/content/
+locale    deliciouspick   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://deliciouspick/content/overlay.xul
